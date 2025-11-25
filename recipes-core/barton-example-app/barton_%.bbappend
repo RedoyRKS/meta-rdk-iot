@@ -4,7 +4,7 @@ BARTON_BUILD_MATTER = "ON"
 # This allows us to use the local files/ directory
 FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 
-# Add custom application matter code to BartonCore source. Note this is separate from
+# Add custom application matter code to BartonCore source. Note this is separate from.
 # matter SDK configuration or custom code. While code here is still intended
 # to extend matter SDK interfaces, it is not the same as ZAP configuration that
 # would generate cluster code behavior. For that sort of configuration, see
